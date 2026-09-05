@@ -1,0 +1,1 @@
+This is in three parts: the [early history](splice.html), the [route to standardization](dds.html), and a [plea for aiming higher](eclips.html). A list of [sources](sources.html) is available. Much of the early history rests on recollections and a few documents my father had kept.

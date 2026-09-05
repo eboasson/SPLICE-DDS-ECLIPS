@@ -1,0 +1,34 @@
+title: SPLICE, DDS and ECLIPS
+theme: minima
+
+# Render plain Markdown pages, including the combined introduction/article pages.
+plugins:
+  - jekyll-optional-front-matter
+
+# Keep the headings in the articles while giving every page the theme's styling.
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+
+  # Apply preview metadata to each article and its combined intro version.
+  - scope:
+      path: "splice*.md"
+      type: pages
+    values:
+      title: "SPLICE: forty years of an architectural idea"
+      description: "The origins of SPLICE, an architecture that helped shape DDS, told through surviving documents and personal recollections by Erik Boasson."
+  - scope:
+      path: "dds*.md"
+      type: pages
+    values:
+      title: "DDS: the common boundary and the space becoming a bus"
+      description: "How SPLICE and NDDS converged in the DDS standard, and how DDS largely forgot the shared-data-space idea as it focused on communication, by Erik Boasson."
+  - scope:
+      path: "eclips*.md"
+      type: pages
+    values:
+      title: "ECLIPS: returning to the architectural question"
+      description: "Exploring ECLIPS, a successor to SPLICE that brings structure, retention, protection and deletion into the data-space model, by Erik Boasson."
